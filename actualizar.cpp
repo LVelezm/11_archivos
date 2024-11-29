@@ -11,7 +11,7 @@ struct tRegistro{
 const int SIZE = sizeof(tRegistro);
 
 void mostrar (tRegistro &r){
-		cout << r.codigo <<" "<< r.item<< r.valor<< endl;  
+		cout << r.codigo <<" "<< r.item<<" "<<r.valor<< endl;  
 }
 
 
