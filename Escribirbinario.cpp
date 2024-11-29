@@ -16,10 +16,10 @@ int main() {
 	archivo.open("bd.dat", ios::out | ios::binary);
 	bool seguir=true;
 	while (seguir) {
-		cout<<"codigo: ";
+		cout<<"Codigo: ";
 		cin.sync();
 		cin>>registro.codigo;
-		cout<<"nombre: ";
+		cout<<"Nombre: ";
 		cin.sync();
 		cin.getline(registro.item,MAX); //MAX=80
 		cout<<"Precio: ";
